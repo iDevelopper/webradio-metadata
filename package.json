@@ -15,26 +15,26 @@
 	],
 	"license": "MPL-2.0",
 	"dependencies": {
-		"abr-log": "^1.0.2",
-		"axios": "^0.18.1",
-		"chalk": "^2.4.2",
-		"loglevel": "^1.6.3",
-		"loglevel-plugin-prefix": "^0.8.3",
-		"qs": "^6.7.0",
-		"winston": "^3.2.1",
-		"ws": "^5.2.1",
-		"xml2js": "^0.4.19"
+		"abr-log": "latest",
+		"axios": "latest",
+		"chalk": "latest",
+		"loglevel": "latest",
+		"loglevel-plugin-prefix": "latest",
+		"qs": "latest",
+		"winston": "latest",
+		"ws": "latest",
+		"xml2js": "latest"
 	},
 	"bugs": {
-		"url": "https://github.com/adblockradio/webradio-metadata/issues"
+		"url": "https://github.com/iDevelopper/webradio-metadata/issues"
 	},
-	"homepage": "https://github.com/adblockradio/webradio-metadata",
+	"homepage": "https://github.com/iDevelopper/webradio-metadata",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/adblockradio/webradio-metadata.git"
+		"url": "git://github.com/iDevelopper/webradio-metadata.git"
 	},
 	"devDependencies": {
-		"webpack": "^4.35.3",
-		"webpack-cli": "^3.3.5"
+		"webpack": "latest",
+		"webpack-cli": "latest"
 	}
 }
