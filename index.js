@@ -4,7 +4,7 @@
 
 // Copyright (c) 2018 Alexandre Storelli
 
-const { log } = require("abr-log")("meta");
+// const { log } = require("abr-log")("meta");
 const parsers = require("./parsers/index.js");
 
 var LOG_ERRORS = false;
@@ -23,7 +23,7 @@ exports.getMeta = getMeta = function(country, name, callback) {
 		return callback((result.error && result.error.message) || result.error, { artist: result.artist, title: result.title, cover: result.cover });
 	})();
 }
-
+/*
 exports.isAvailable = isAvailable = function(country, name) {
 	if (!parsers[country]) return false;
 	const parsingData = parsers[country].filter(p => p.name === name);
@@ -67,7 +67,8 @@ exports.getAll = getAll = function(callback) {
 	}
 	f(0);
 }
-
+*/
+/*
 if (require.main === module) { // standalone usage
 	if (process.argv.length === 3) {
 		switch (process.argv[2]) {
@@ -98,3 +99,4 @@ if (require.main === module) { // standalone usage
 		});
 	}
 }
+*/
