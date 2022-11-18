@@ -7,7 +7,7 @@
 "use strict";
 const axios = require("axios");
 //const htmlToStr = require("../htmlToStr.js");
-const { log } = require("abr-log")("meta-Belgium_Bel-RTL");
+//const { log } = require("abr-log")("meta-Belgium_Bel-RTL");
 
 module.exports = async function(exturl) {
 	try {
@@ -51,7 +51,7 @@ module.exports = async function(exturl) {
 		var parsedResult = req.data;
 		parsedResult = parsedResult["epg"];
 		if (parsedResult && parsedResult.filter) {
-			log.debug("try filter");
+			//log.debug("try filter");
 			parsedResult = parsedResult.filter(e => date >= e.date && time >= e.timing && (reversedDate + " " + time) < e.timingend)[0];
 			if (parsedResult) {
 				//log.debug(result2);
