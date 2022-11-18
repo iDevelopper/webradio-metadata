@@ -15,8 +15,14 @@
 	],
 	"license": "MPL-2.0",
 	"dependencies": {
-        "axios": "latest",
+		"abr-log": "latest",
+		"axios": "latest",
+		"chalk": "latest",
+		"loglevel": "latest",
+		"loglevel-plugin-prefix": "latest",
 		"qs": "latest",
+		"winston": "latest",
+		"ws": "latest",
 		"xml2js": "latest"
 	},
 	"bugs": {
